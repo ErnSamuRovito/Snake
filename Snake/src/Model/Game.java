@@ -22,7 +22,8 @@ public class Game
         world = new World();
     }
 
-    public World getWorld() {
+    public World getWorld() 
+    {
         return world;
     }
 
@@ -39,15 +40,18 @@ public class Game
         return game;
     }
 
-    public static void restartGame() {
+    public static void restartGame() 
+    {
         game = new Game();
     }
 
-    public boolean isAlive() {
+    public boolean isAlive() 
+    {
         return world.getSnake().isAlive();
     }
 
-    public boolean isWin() {
+    public boolean isWin() 
+    {
         return win;
     }
 
